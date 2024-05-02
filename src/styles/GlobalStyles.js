@@ -185,9 +185,44 @@ const GlobalStyles = createGlobalStyle`
 
 
 html {
-  font-size: 62.5%;
+  font-size: 10px;
 }
 
+@media only screen and (max-width: 500px) {
+  html {
+      font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+  html {
+      font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  html {
+      font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  html {
+      font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1600px) {
+  html {
+      font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 1601px) {
+  html {
+      font-size: 20px;
+  }
+}
 body {
   font-family: "Poppins", sans-serif;
   color: var(--color-grey-0);
@@ -197,8 +232,6 @@ body {
   font-size: 1.6rem;
     /* color: var(--color-grey-900); */
 
-
-  
 
 }
 
