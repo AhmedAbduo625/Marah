@@ -88,7 +88,8 @@ function HomeHeader() {
   return (
     <Header>
       <PrimaryHeading>
-        <Main>المــــــــــراح</Main>
+        {/* <Main>المــــــــــراح</Main> */}
+        <Main>احمـــــــــــد</Main>
         <Sub>التطبيق الأفضل لإدارة مزرعتك</Sub>
       </PrimaryHeading>
       <Box>
