@@ -61,7 +61,7 @@ function BookingRow() {
         </Stacked>
 
         <Amount></Amount>
-        <Menus.Menu>
+        {/* <Menus.Menu>
           <Menus.Toggle id={""} />
           <Menus.List id={""}>
             <Menus.Button icon={<HiEye />} onClick={() => navigate(`/`)}>
@@ -85,7 +85,7 @@ function BookingRow() {
             </Modal.Open>
           </Menus.List>
         </Menus.Menu>
-        <Modal.Window name="delete"></Modal.Window>
+        <Modal.Window name="delete"></Modal.Window> */}
       </Modal>
     </Table.Row>
   );
